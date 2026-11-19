@@ -1,0 +1,298 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,bottom = 0.6in,left = 0.75in,right = 0.75in,top = 1cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\usepackage{textcomp}
+
+\usepackage{verbatim}
+\usepackage{makecell}
+\usepackage{pbox}
+
+%for color
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{myblue}{RGB}{10,0,254}
+
+% Adjusting the margins
+\enlargethispage{2\baselineskip} % you can adjust the number based on your content's fit in the page
+
+\newcommand{\xfilll}[2][1ex]{
+\dimen0=#2\advance\dimen0 by #1
+\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\pagenumbering{gobble}
+
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.99}
+\textheight=10in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item[{\color[RGB]{10,0,254}$\bullet$}] #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.99\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{8.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+
+
+\begin{document}
+\begin{table}
+    \begin{center}
+    {\Huge \scshape Md Atiqur Rahman} \\[0.10cm]
+    \small \raisebox{-0.1\height}\faPhone\ (984) 379-1009 ~ \href{mailto:atiqur.rahman0041@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{atiqur.rahman0041@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/atiqurrahman041/}{\raisebox{-0.2\height}\faLinkedin\ \underline{atiqurrahman041}}  ~
+    \href{https://github.com/atiqur-rahman-0041}{\raisebox{-0.2\height}\faGithub\ \underline{atiqur-rahman-0041}} ~
+    \vspace{-8pt}
+\end{center}
+\end{table}    
+
+%%% SHORT SUMMARY %%%
+\section*{{ \LARGE \color{myblue} Research Interest}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+Software Supply Chain Security, Application of LLMs in Software Security 
+\vspace{-8pt}
+
+%%%% Education %%%%
+\section*{{\LARGE \color{myblue}Education}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\textbf{\large North Carolina State University}  \hfill { \small Aug 2024 - Present}\\[-0.5cm]
+\\[0.08cm]
+\emph{PhD in Computer Science} 
+\\[-0.6cm]
+        \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textbf{Advisors}: {\href{https://enck.org/}{\underline{Dr. William Enck}}}, {\href{https://www.kapravelos.com/}{\underline{Dr. Alexandros Kapravelos}}}
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textbf{Affiliation}: {{\href{https://wspr.csc.ncsu.edu/}{\underline{Wolfpack Security and Privacy Research (WSPR) Lab}}}}
+        \end{itemize} 
+\textbf{\large Bangladesh University of Engineering and Technology}  \hfill { \small Feb 2017 - May 2022}\\[-0.5cm]
+\\[0.08cm]
+\emph{B.Sc in Computer Science and Engineering} 
+\\[-0.6cm]
+
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textbf{CGPA}: 3.69/4.00 
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textbf{CGPA in Last 4 Terms}: 3.86/4.00
+        \end{itemize} 
+%%%% PUBLICATIONS %%%%
+\section*{{\LARGE \color{myblue}PUBLICATIONS}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\textbf{{{\href{https://doi.org/10.1145/3569551.3569561} {\large Cri-Astrologer: Predicting Demography of Involved Criminals based on Historical Data }}}} 
+{\small  NSysS '22: Proceedings of the 9th International Conference on Networking, Systems and Security}\hfill { \small  Dec 2022}
+\\[-0.5cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent {Undergraduate Thesis}
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textbf{Field}: {Computational Criminology}
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textbf{Supervised by}:  {\href{https://sites.google.com/site/abmalimalislam/}{\underline{A. B. M. Alim Al Islam} }} 
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent \textbf{Methods}: Data Analysis and Preprocessing, Feature Engineering, Exploration of Open-source Deep Learning Algorithms
+        \end{itemize} 
+\vspace{-15pt}
+
+%%%% Work EXPERIENCE %%%%
+\section*{{\LARGE \color{myblue}Work Experience}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+%\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\textbf{\large IQVIA} \hfill { \small May 2022 - Jul 2024}
+\\[0.05cm]
+\emph{Software Engineer, Tech Analytics} 
+\\[-0.6cm]	
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Worked on different database systems like MSSQL, Postgres, Snowflake, Firebolt, Oracle, MongoDB and Amazon Redshift.
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Worked with various cloud services, including Kubernetes, Azure, and AWS.
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Led research and development efforts to enhance database query performance, reduce query counts, and explore cost-efficient solutions. 
+        \item [{\color[RGB]{10,0,254}$\bullet$}] \noindent Worked on an R\&D project focused on transforming user interactions with data visualization by simplifying complex dashboard configurations through the integration of large language models.
+        \end{itemize} 
+
+%%%% RESEARCH EXPERIENCE %%%%
+% \section*{{\LARGE \color{myblue}Research Experience}\xfilll[0pt]{0.5pt}}
+% \vspace{-15pt}
+% \vspace{1.5mm}
+% \textbf{{{\large Tracking the Hidden Drifts: Evolution of Dependencies and Capabilities in npm Packages }}}
+% \\[0.05cm]
+% \emph{npm Ecosystem Attack Surface Analysis, WSPR Lab} \hfill { \small  Aug 2024 -  Present}
+% \\[-0.6cm]	
+% 	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% 	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Measuring how npm package dependency graphs evolve across different versions over time.
+%         \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Quantifying changes in inherited security-sensitive APIs over time with changes in transitive dependencies.
+%         \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Analyzing change patterns across popular packages and maintainer groups.
+%         \end{itemize} 
+% %\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% \textbf{{ {\large Generative-AI Enhanced Data Visualization }}} \hfill { \small  June 2023 -  July 2024}
+% \\[0.05cm]
+% \emph{Gen-AI Chatbot 2.0 MVP Project, IQVIA} 
+% \\[-0.6cm]	
+% 	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% 	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Explored various large language models including GPT, Llama and Mistral.
+%         \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Worked with different AWS services such as Amazon Lex, Amazon Sagemaker, and AWS Lambda.
+%         \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Explored different streaming techniques, pattern matching and fuzzy matching techniques for optimization.
+%         \end{itemize} 
+% \vspace{-15pt}
+
+%%%% RESEARCH EXPERIENCE %%%%
+\section*{{\LARGE \color{myblue}Research Experience}\xfilll[0pt]{0.5pt}}
+\vspace{-15pt}
+\vspace{1.5mm}
+\textbf{{{\large Security of Third-Party AI Agent Skills}}}
+\\[0.05cm]
+\emph{WSPR Lab, Secure Software Supply Chain Center (S3C2)} \hfill { \small  Jul 2026 -  Present}
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Identifying risky traits of third-party agent skills, such as accessing secrets, running shell commands, and reaching untrusted networks.
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Building a monitored testbed that runs skills in realistic environments and observes agent behavior to detect these traits.
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Enabling trait-based policies that let organizations block risky skills while allowing benign ones.
+        \end{itemize}
+\textbf{{{\large Capability Changes in npm Dependencies}}}
+\\[0.05cm]
+\emph{WSPR Lab, Secure Software Supply Chain Center (S3C2)} \hfill { \small  Aug 2024 -  Jun 2026}
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Built a large-scale pipeline that tracks how npm releases' dependency graphs and their capabilities change after publication.
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Proposed metrics to quantify how often dependencies and their access to sensitive resources change over time.
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Showed that pinning a few dependencies usually keeps new capabilities out without freezing all updates. \emph{(Paper under review)}
+        \end{itemize}
+\textbf{{ {\large Generative-AI Enhanced Data Visualization }}} \hfill { \small  Jun 2023 -  Jul 2024}
+\\[0.05cm]
+\emph{Gen-AI Chatbot 2.0 MVP Project, IQVIA}
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Explored various large language models including GPT, Llama and Mistral.
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Worked with different AWS services such as Amazon Lex, Amazon SageMaker, and AWS Lambda.
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Explored different streaming techniques, pattern matching and fuzzy matching techniques for optimization.
+        \end{itemize}
+\vspace{-15pt}
+
+%%% PERSONAL PROJECTS %%%
+\section*{{ \LARGE \color{myblue} Personal Projects}\xfilll[0pt]{0.5pt}}
+\vspace{-13pt}
+\vspace{1.5mm}
+
+\textbf{\large DNS NXDOMAIN Flood Attack}| \normalfont{C, Wireshark, Oracle VM VirtualBox}
+\\[0.05cm]
+\emph{Computer Security} \hfill {\href{https://github.com/atiqur-rahman-0041/DNS-NXDOMAIN-FLood-Attack} {\underline{Project Link} }}
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Implemented an NXDOMAIN Flood attack on DNS servers using non-existent or invalid domain names. 
+        \item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Implemented a defense mechanism to prevent NXDOMAIN Flood attacks. 
+	\end{itemize}
+\textbf{\large NCDMV Appointment Crawler}| \normalfont{Python} 
+\\[0.05cm]
+\emph{Voluntary Project, Web Crawling} \hfill {\href{https://github.com/atiqur-rahman-0041/NC-DMV-Crawler}{\underline{Project Link} }} 
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Developed an automated crawler that monitors NC DMV appointment slots and sends real-time Discord alerts, packaged with Docker for easy deployment.
+	\end{itemize} 
+\textbf{\large Traan-Chitro}| \normalfont{Vue.js, Node.js, MongoDB} 
+\\[0.05cm]
+\emph{Voluntary Project, Web Development} \hfill {\href{https://github.com/ags3927/traan-chitro}{\underline{Project Link} }} 
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Developed a web-based relief coordination platform for non-government relief organizations in the COVID pandemic period so that those organizations can reach out to more people in need.
+	\end{itemize} 
+   \textbf{\large E-luxurious}| \normalfont{Vue.js, Node.js, MongoDB} 
+\\[0.05cm]
+\emph{Web Development} \hfill {\href{https://github.com/atiqur-rahman-0041/E-Luxurious-backend}{\underline{Project Link} }} 
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Developed a web-based property renting platform which had similar functionalities to Airbnb.
+	\end{itemize}
+  \textbf{\large MAD360 - Media Development Tool}| \normalfont{React.js, Django, Postgres} 
+\\[0.05cm]
+\emph{Funded Project, Software Development} 
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Developed a web-based experimental advertisement budget management system funded by Unilever, which is supposed to reduce about 60\% of the manual labor done before.
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Used Python based mathematical modules to calculate complex budget quantities more accurately and faster than before.
+	\end{itemize}
+ \textbf{\large Line of Action}| \normalfont{Java, Slick2D} 
+\\[0.05cm]
+\emph{Game, Artificial Intelligence} \hfill {\href{https://github.com/atiqur-rahman-0041/Line-of-Action-Game}{\underline{Project Link} }} 
+\\[-0.6cm]
+	\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+	\item[{\color[RGB]{10,0,254}$\bullet$}] \noindent Used minimax \& heuristic algorithms to find optimal moves for AI by implementing a Line of Action game with AI vs Human and Human vs Human playing options.
+	\end{itemize}
+
+%%% SKILLS %%%
+\section*{{\LARGE \color{myblue}Technical Skills}\xfilll[0pt]{0.5pt}}
+
+\vspace{-12pt}
+\setlength{\tabcolsep}{9pt}
+\noindent\begin{tabular}{lllll}
+
+\textbf{Programming Languages} & C, C++, C\#, Java, Python, JavaScript \\
+\textbf{Programming Frameworks} & Node.js, Django, .NET \\
+\textbf{Database Systems} & MSSQL, Postgres, Oracle, Snowflake, Firebolt, Redshift, MongoDB \\  
+% \textbf{Libraries} & OpenGL, Numpy, Pandas, Scikit-learn, Keras, OpenCV \\ 
+\textbf{Cloud Platforms} & AWS, Azure, Heroku \\ 
+\textbf{Tools} & Git, \LaTeX, Docker
+\end{tabular}
+% \fi 
+
+\vspace{-10pt}
+% \fi 
+
+%%%  Awards and Achievements  %%%
+\section*{{\LARGE \color{myblue} Awards and Achievements }\xfilll[0pt]{0.5pt}}
+
+\vspace{-12pt}
+\setlength{\tabcolsep}{9pt}
+\noindent\begin{tabular}{lllll}
+
+\textbf{Platinum Tier Award, IQVIA Impact
+Program} & 2023 \\
+\textbf{Dean’s List, BUET} & Last 4 terms of undergraduate program \\ 
+\textbf{Champion - Industrial Automation Challenge v2.0, BUET} &  2017
+\end{tabular}
+
+%%%  Certificates  %%%
+\section*{{\LARGE \color{myblue} Certificates }\xfilll[0pt]{0.5pt}}
+
+\vspace{-12pt}
+\setlength{\tabcolsep}{9pt}
+\noindent\begin{tabular}{lllll}
+
+\textbf{Deep Learning Specialization} & deeplearning.ai - Coursera & \href{https://coursera.org/verify/JNWL7YZQ8XSH}{\underline{Course Certificate}}\\
+\textbf{Fundamental of GIS} & UCDAVIS & \href{https://coursera.org/verify/AEDM2KMXULVY}{\underline{Course Certificate}}\\
+\textbf{GIS Data Formats, Design, and Quality} & UCDAVIS & \href{https://coursera.org/verify/2VEJUG3R86MJ}{\underline{Course Certificate}}\\ 
+
+\end{tabular}
+% \fi 
+\vspace{-10pt}
+% \fi 
+\end{document}
