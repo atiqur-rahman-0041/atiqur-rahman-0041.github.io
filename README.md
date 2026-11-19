@@ -24,7 +24,7 @@ Opening `index.html` directly with `file://` also mostly works. The local server
 | `css/resume.css` | Site styles, including the color scheme (edit directly) |
 | `js/resume.js` | Smooth scrolling and nav highlighting |
 | `img/` | Profile photo, award image, favicons |
-| `files/resume/` | Resume PDF linked from the Resume section |
+| `files/resume/` | Resume source (`resume.tex`) and the built PDF linked from the Resume section |
 | `files/papers/` | Paper PDFs linked from Publications |
 | `vendor/` | Bootstrap 4, jQuery, jQuery Easing, Font Awesome 4 (vendored) |
 
@@ -32,7 +32,18 @@ Devicon and Academicons icons and Google Fonts load from CDNs.
 
 ## Updating the resume
 
-Replace `files/resume/Md__Atiqur__Rahman__Resume.pdf` with a file of the same name, or rename it and update the link in the `#cv` section of `index.html`.
+The resume is built from [`files/resume/resume.tex`](files/resume/resume.tex). Edit that file, then rebuild:
+
+```sh
+./build-resume.sh           # build once
+./build-resume.sh --watch   # rebuild automatically on every save (Ctrl+C to stop)
+```
+
+Each build replaces `files/resume/Md__Atiqur__Rahman__Resume.pdf`, the file the site links to. Commit the `.tex` and the PDF together.
+
+This needs a LaTeX install with `latexmk` (for example [MacTeX](https://tug.org/mactex/)). Intermediate build files go to `.latex-build/`, which git ignores.
+
+`resume.tex` is published along with the rest of the site, so keep private notes out of it, including in comments.
 
 ## Credits
 
